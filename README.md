@@ -35,7 +35,7 @@ The design was verified using simulation testbenches and synthesized for FPGA im
 ## Schematic Datapath
 - Schematic Datapath Encrypt:
 ![Encrypt](docs/DES64_Encrypt.jpg)
-
+<br>
 - Schematic Datapath Decrypt:
 ![Decrypt](docs/DES64_Decrypt.jpg)
 ---
@@ -87,11 +87,16 @@ All Ciphertext after Decrypt is same as Plaintext => Correct
 - Approximately 80 clock cycles per encryption
 - **Synthesized Fmax:** ~247 MHz
 
-## Waveform result
-Waveform Encrypt:
+## Simulation Waveforms
+
+#### Encrypt Waveform
+
 ![Waveform Encrypt](docs/waveform_Encrypt.png)
 
-Waveform Decrypt:
+<br>
+
+#### Decrypt Waveform
+
 ![Waveform Decrypt](docs/waveform_Decrypt.png)
 
 
