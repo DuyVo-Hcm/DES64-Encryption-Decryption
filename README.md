@@ -33,10 +33,10 @@ The design was verified using simulation testbenches and synthesized for FPGA im
 
 ---
 ## Schematic Datapath
-**Schematic Datapath Encrypt:**
+- Schematic Datapath Encrypt:
 ![Waveform Encrypt](docs/DES64_Encrypt.png)
 
-**Schematic Datapath Decrypt:**
+- Schematic Datapath Decrypt:
 ![Waveform Decrypt](docs/DES64_Decrypt.png)
 ---
 ## Technologies Used
@@ -76,6 +76,7 @@ Example standard DES test vector:
 | 13579BDF2468ACE0 | 1A2B3C4D5E6F7788 | 55ACF9E2DAA89BE9 |
 | CAFEBABE12345678 | 0A0B0C0D0E0F1011 | 9782675A69186083 |
 
+All Ciphertext after Decrypt is same as Plaintext => Correct
 ---
 
 ## Performance
