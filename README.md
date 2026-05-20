@@ -34,10 +34,10 @@ The design was verified using simulation testbenches and synthesized for FPGA im
 ---
 ## Schematic Datapath
 - Schematic Datapath Encrypt:
-![Encrypt](docs/DES64_Encrypt.png)
+![Encrypt](docs/DES64_Encrypt.jpg)
 
 - Schematic Datapath Decrypt:
-![Decrypt](docs/DES64_Decrypt.png)
+![Decrypt](docs/DES64_Decrypt.jpg)
 ---
 ## Technologies Used
 
@@ -88,10 +88,10 @@ All Ciphertext after Decrypt is same as Plaintext => Correct
 - **Synthesized Fmax:** ~247 MHz
 
 ## Waveform result
-**Waveform Encrypt:**
+Waveform Encrypt:
 ![Waveform Encrypt](docs/waveform_Encrypt.png)
 
-**Waveform Decrypt:**
+Waveform Decrypt:
 ![Waveform Decrypt](docs/waveform_Decrypt.png)
 
 
