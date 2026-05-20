@@ -69,10 +69,13 @@ Simulation output matched expected DES ciphertext.
 
 - FSM-based sequential architecture
 - Approximately 50 clock cycles per encryption
-- Synthesized Fmax: ~227 MHz
+- **Synthesized Fmax:** ~227 MHz
+- Approximately 80 clock cycles per encryption
+- **Synthesized Fmax:** ~247 MHz
 
----
+## Waveform result
 
-## Author
+![Waveform Decrypt](docs/waveform_Decrypt.png)
+![Waveform Encrypt](docs/waveform_Encrypt.png)
 
-Duy
+
