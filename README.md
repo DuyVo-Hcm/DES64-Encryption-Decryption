@@ -34,10 +34,10 @@ The design was verified using simulation testbenches and synthesized for FPGA im
 ---
 ## Schematic Datapath
 - Schematic Datapath Encrypt:
-![Waveform Encrypt](docs/DES64_Encrypt.png)
+![Encrypt](docs/DES64_Encrypt.png)
 
 - Schematic Datapath Decrypt:
-![Waveform Decrypt](docs/DES64_Decrypt.png)
+![Decrypt](docs/DES64_Decrypt.png)
 ---
 ## Technologies Used
 
