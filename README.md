@@ -32,7 +32,13 @@ The design was verified using simulation testbenches and synthesized for FPGA im
 - FPGA synthesis ready
 
 ---
+## Schematic Datapath
+**Schematic Datapath Encrypt:**
+![Waveform Encrypt](docs/DES64_Encrypt.png)
 
+**Schematic Datapath Decrypt:**
+![Waveform Decrypt](docs/DES64_Decrypt.png)
+---
 ## Technologies Used
 
 - Verilog HDL
@@ -59,9 +65,16 @@ Example standard DES test vector:
 
 | Plaintext | Key | Ciphertext |
 |---|---|---|
+| 00123456789ABCDE | 0133457799BBCDFF | 1ABFF69D5A93E80B |
 | 0123456789ABCDEF | 133457799BBCDFF1 | 85E813540F0AB405 |
-
-Simulation output matched expected DES ciphertext.
+| 1111111111111111 | 2222222222222222 | 08024FCF811DA672 |
+| 0000000000000000 | 0000000000000000 | 8CA64DE9C1B123A7 |
+| FFFFFFFFFFFFFFFF | FFFFFFFFFFFFFFFF | 7359B2163E4EDC58 |
+| AAAAAAAAAAAAAAAA | 5555555555555555 | 343A09F9B2CB5CCA |
+| 1234567890ABCDEF | 0F1571C947D9E859 | 180419FB1A3814AF |
+| FEDCBA9876543210 | AABB09182736CCDD | CA246075E30CA7B7 |
+| 13579BDF2468ACE0 | 1A2B3C4D5E6F7788 | 55ACF9E2DAA89BE9 |
+| CAFEBABE12345678 | 0A0B0C0D0E0F1011 | 9782675A69186083 |
 
 ---
 
@@ -74,8 +87,11 @@ Simulation output matched expected DES ciphertext.
 - **Synthesized Fmax:** ~247 MHz
 
 ## Waveform result
-
-![Waveform Decrypt](docs/waveform_Decrypt.png)
+**Waveform Encrypt:**
 ![Waveform Encrypt](docs/waveform_Encrypt.png)
+
+**Waveform Decrypt:**
+![Waveform Decrypt](docs/waveform_Decrypt.png)
+
 
 
